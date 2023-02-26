@@ -1,0 +1,93 @@
+:root {
+  --primary-font-size: 40px;
+  --secondary-font-size: 18px;
+  --header-font-size: 80px;
+  --secondary-color: #f15a22;
+  --box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  --default-margin: 5px;
+  --default-padding: 1px;
+}
+h1 {
+  font-size: var(--header-font-size);
+  font-weight: bold;
+  margin: var(--default-margin);
+}
+h2 {
+  font-size: var(--primary-font-size);
+  margin: 0;
+}
+h3 {
+  font-size: 20px;
+  opacity: 0.7;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: cursive;
+  margin-bottom: 100px;
+}
+.button {
+  font-size: var(--secondary-font-size);
+  font-weight: bold;
+  margin: 20px;
+}
+
+.box-button {
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #f15a22;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 30px;
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.box-button:hover {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: white;
+}
+.about {
+  margin: 30px;
+}
+.about div {
+  border: 2px solid var(--secondary-color);
+  margin: 10px;
+  box-shadow: var(--box-shadow);
+}
+.email {
+  margin: var(--default-margin);
+}
+.email:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
+.name:hover {
+  cursor: default;
+}
+.border-color {
+  border: 1px solid var(--secondary-color);
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: var(--default-margin);
+  }
+  h2 {
+    font-size: 30px;
+    margin: 10px;
+  }
+  h3 {
+    font-size: 20px;
+    opacity: 0.7;
+    margin-top: 40px;
+  }
+}
