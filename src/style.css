@@ -1,12 +1,17 @@
+/*font-family: 'Arvo', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Yeseva One', cursive;*/
 :root {
   --primary-font-size: 40px;
   --secondary-font-size: 18px;
   --header-font-size: 80px;
-  --secondary-color: #f15a22;
+  --primary-color: #fe8c12;
+  --secondary-color: #0d9ca4;
   --box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   --default-margin: 5px;
   --default-padding: 1px;
 }
+
 h1 {
   font-size: var(--header-font-size);
   font-weight: bold;
