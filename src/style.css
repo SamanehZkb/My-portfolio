@@ -37,8 +37,6 @@ body {
   border-radius: 10px;
 }
 .project-image {
-  border: 3px solid var(--secondary-color);
-  border-radius: 70px;
   box-shadow: var(--box-shadow);
 }
 h1 {
@@ -47,14 +45,22 @@ h1 {
   font-family: "Arvo", serif;
 }
 h2 {
+  font-family: "Lalezar", cursive;
+  font-size: 40px;
+}
+.hero h2 {
   font-size: var(--primary-font-size);
   font-family: "Lalezar", cursive;
   height: 20px;
 }
-h3 {
+.hero h3 {
   font-size: 20px;
   opacity: 0.7;
   font-family: "Poppins", sans-serif;
+}
+h3 {
+  font-family: "Lalezar", cursive;
+  font-size: 30px;
 }
 
 .container {
@@ -96,6 +102,7 @@ h3 {
   background-color: var(--secondary-color);
   font-family: "Poppins", sans-serif;
   color: white;
+  width: 400px;
 }
 .about {
   margin: 30px;
@@ -145,4 +152,27 @@ h3 {
   border-radius: 250px;
   box-shadow: var(--box-shadow);
   background-color: white;
+}
+footer {
+  margin: 50px 80px;
+  padding: 30px 30px;
+  border-radius: 10px;
+  text-align: left;
+  background: rgba(254, 140, 18, 0.8);
+}
+footer h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+footer h3 {
+  font-size: 15px;
+  opacity: 80%;
+  font-family: "Poppins", sans-serif;
+}
+.contact-point {
+  padding: 0;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
