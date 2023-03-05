@@ -35,7 +35,7 @@
   <body>
     <nav class="navbar navbar-dark navbar-expand-lg static-top topbar">
       <div class="container-fluid">
-        <a class="navbar-brand fs-6 name" href="#">Samaneh ZKB</a>
+        <a class="navbar-brand fs-6 active name" href="#">Samaneh ZKB</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -53,14 +53,11 @@
         >
           <ul class="navbar-nav justify-content-end">
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="/"
-                title="homepage"
-                >Home</a
+              <a class="nav-link" aria-current="page" href="/" title="homepage"
+                >My works</a
               >
             </li>
+
             <li class="nav-item">
               <a class="nav-link" href="/About-me.html" title="about-me"
                 >About Me</a
@@ -74,17 +71,22 @@
                 >Contact Me</a
               >
             </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/" title="homepage"
+                >Hire Me</a
+              >
+            </li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="hero">
       <div class="row g-0 justify-content-center">
-        <div class="col-sm-8">
+        <div class="col-sm-8 align-self-center">
           <h2>Hi, My name is</h2>
           <h1>Samaneh Zarkoob</h1>
           <h3>Front-end developer, based in Iran</h3>
-          <div class="row mt-5 button">
+          <div class="row mt-4 button">
             <div class="col-sm-auto">
               <a class="box-button" href="/About-me.html"> About Me</a>
             </div>
@@ -95,9 +97,9 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 align-self-center">
           <img
-            class="developer img-fluid img-thumbnail"
+            class="developer img-fluid img-thumbnail d-none d-sm-block"
             src="images\coder.png"
             alt=""
           />
@@ -105,66 +107,72 @@
       </div>
     </div>
     <br />
-    <br />
-    <div class="row mb-3">
-      <div class="col-sm-6 d-none d-sm-block">
-        <div class="rounded p-5">
-          <img
-            src="images\women-life-freedom.jpg"
-            alt="Woman Life Freedom"
-            class="img-fluid rounded img-thumbnail"
-          />
+    <hr class="mx-5" />
+    <h2 class="text-center mb-3">My Works</h2>
+    <h6 class="text-center text-muted">Since 2023</h6>
+    <div class="my-works">
+      <div class="row g-3">
+        <div class="col-sm-6 d-none d-sm-block align-self-center">
+          <div class="rounded">
+            <img
+              src="images\women-life-freedom.jpg"
+              alt="Woman Life Freedom"
+              class="img-fluid project-image"
+            />
+          </div>
+        </div>
+        <div class="col-sm-6 d-none d-sm-block">
+          <div class="rounded">
+            <img
+              src="images\weather-app.jpg"
+              alt="Weather App"
+              class="img-fluid project-image"
+            />
+          </div>
         </div>
       </div>
-
-      <div class="col-sm-6">
-        <h2>Woman Life Freedom</h2>
-        <br />
-        <p class="text-start">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-          aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-          alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-          blanditiis harum. Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Numquam aperiam provident tempora? Cumque adipisci, non dolorem
-          quia, odit qui alias veniam excepturi rem dolor fugit dignissimos, sed
-          voluptatum blanditiis harum.
-        </p>
-
-        <a
-          href="http://shecodes.io/workshops/shecodes-basics-a0b33cd6-9dfc-4cea-bd4b-6ea3d75f7132/projects/1303780"
-          target="_blank"
-          class="btn box-button"
-          >Launch Woman Life Freedom project</a
-        >
-      </div>
-    </div>
-    <div class="row mt-5">
-      <div class="col-sm-6">
-        <h2>Weather App</h2>
-        <br />
-        <p class="text-start">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-          aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-          alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-          blanditiis harum. Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Numquam aperiam provident tempora? Cumque adipisci, non dolorem
-          quia, odit qui alias veniam excepturi rem dolor fugit dignissimos, sed
-          voluptatum blanditiis harum.
-        </p>
-        <a
-          href="http://shecodes.io/workshops/shecodes-plus-1d4e0034-92fd-4092-968e-2a18eb87fb3f/projects/1426115"
-          target="_blank"
-          class="btn box-button"
-          >Launch Weather App</a
-        >
-      </div>
-      <div class="col-sm-6 d-none d-sm-block">
-        <div class="rounded p-5">
-          <img
-            src="images\weather-app.jpg"
-            alt="Weather App"
-            class="img-fluid rounded img-thumbnail"
-          />
+      <div class="row g-3">
+        <div class="col-sm-6 align-self-center pt-4">
+          <h2 class="text-center">Woman Life Freedom</h2>
+          <br />
+          <p class="text-start">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+            aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
+            qui alias veniam excepturi rem dolor fugit dignissimos, sed
+            voluptatum blanditiis harum. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Numquam aperiam provident tempora? Cumque
+            adipisci, non dolorem quia, odit qui alias veniam excepturi rem
+            dolor fugit dignissimos, sed voluptatum blanditiis harum.
+          </p>
+          <div class="text-center">
+            <a
+              href="http://shecodes.io/workshops/shecodes-basics-a0b33cd6-9dfc-4cea-bd4b-6ea3d75f7132/projects/1303780"
+              target="_blank"
+              class="btn project-button"
+              >Launch Woman Life Freedom project</a
+            >
+          </div>
+        </div>
+        <div class="col-sm-6 align-self-center pt-4">
+          <h2 class="text-center">Weather App</h2>
+          <br />
+          <p class="text-start">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+            aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
+            qui alias veniam excepturi rem dolor fugit dignissimos, sed
+            voluptatum blanditiis harum. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Numquam aperiam provident tempora? Cumque
+            adipisci, non dolorem quia, odit qui alias veniam excepturi rem
+            dolor fugit dignissimos, sed voluptatum blanditiis harum.
+          </p>
+          <div class="text-center">
+            <a
+              href="http://shecodes.io/workshops/shecodes-plus-1d4e0034-92fd-4092-968e-2a18eb87fb3f/projects/1426115"
+              target="_blank"
+              class="btn project-button"
+              >Launch Weather App</a
+            >
+          </div>
         </div>
       </div>
     </div>
