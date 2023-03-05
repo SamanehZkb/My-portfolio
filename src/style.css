@@ -13,12 +13,19 @@ font-family: 'Yeseva One', cursive;*/
   --fade-color: #eeeaeb;
 }
 .hero {
-  margin: 70px 80px;
+  margin: 20px 80px;
 
   padding: 50px 30px;
   border-radius: 10px;
   text-align: left;
   background: var(--fade-color);
+}
+.topbar {
+  margin: 20px 80px;
+  background-color: var(--secondary-color);
+  padding: 0 10px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
 }
 h1 {
   font-size: var(--header-font-size);
