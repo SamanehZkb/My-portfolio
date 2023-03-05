@@ -1,8 +1,9 @@
 /*font-family: 'Arvo', serif;
+font-family: 'Lalezar', cursive;
 font-family: 'Poppins', sans-serif;
-font-family: 'Yeseva One', cursive;*/
+font-family: 'Sriracha', cursive;*/
 :root {
-  --primary-font-size: 40px;
+  --primary-font-size: 30px;
   --secondary-font-size: 18px;
   --header-font-size: 60px;
   --primary-color: #fe8c12;
@@ -13,9 +14,8 @@ font-family: 'Yeseva One', cursive;*/
   --fade-color: #eeeaeb;
 }
 .hero {
-  margin: 20px 80px;
-
-  padding: 50px 30px;
+  margin: 30px 80px;
+  padding: 20px 30px;
   border-radius: 10px;
   text-align: left;
   background: var(--fade-color);
@@ -23,27 +23,24 @@ font-family: 'Yeseva One', cursive;*/
 .topbar {
   margin: 20px 80px;
   background-color: var(--secondary-color);
-  padding: 0 10px;
+  padding: 0;
   font-family: "Poppins", sans-serif;
   border-radius: 10px;
 }
 h1 {
   font-size: var(--header-font-size);
   font-weight: bold;
-  margin: var(--default-margin);
-  font-family: "Yeseva One", cursive;
-  height: 70px;
+  font-family: "Arvo", serif;
 }
 h2 {
   font-size: var(--primary-font-size);
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-  height: 50px;
+  font-family: "Lalezar", cursive;
+  margin-top: 30px;
+  height: 20px;
 }
 h3 {
   font-size: 20px;
   opacity: 0.7;
-  margin: 0;
   font-family: "Poppins", sans-serif;
 }
 img {
