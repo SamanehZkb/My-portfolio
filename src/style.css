@@ -96,7 +96,7 @@ hr {
 }
 
 .my-works {
-  margin: 30px 80px;
+  margin: 50px 80px;
 }
 .my-works p {
   text-align: justify;
@@ -243,4 +243,8 @@ hr {
 }
 .contact img {
   max-width: 600px;
+}
+.works-text {
+  background-color: var(--fade-color);
+  box-shadow: var(--box-shadow);
 }
