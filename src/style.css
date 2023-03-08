@@ -230,11 +230,15 @@ hr {
   box-shadow: var(--box-shadow);
 }
 @media (max-width: 960px) {
-  body {
+  .topbar {
+    margin: 20px 10px;
+  }
+  hr {
+    margin-top: 0px;
   }
   .hero {
     text-align: center;
-    margin: 20px 10px;
+    margin: 20px 10px 10px 10px;
   }
   .my-works {
     margin: 50px 10px;
@@ -297,5 +301,8 @@ hr {
     background-color: var(--secondary-color);
     transition: ease-in-out;
     color: black;
+  }
+  footer {
+    margin: 20px 10px;
   }
 }
