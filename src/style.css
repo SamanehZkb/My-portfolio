@@ -110,7 +110,7 @@ hr {
   font-size: 12px;
   font-weight: bold;
 }
-.aboutpage-button {
+ {
   font-size: 12px;
   font-weight: bold;
   text-align: right;
@@ -304,5 +304,14 @@ hr {
   }
   footer {
     margin: 20px 10px;
+  }
+  .education {
+    margin: 20px 10px 10px 10px;
+  }
+  .work-experience {
+    margin: 20px 10px 10px 10px;
+  }
+  .aboutpage-button {
+    text-align: center;
   }
 }
