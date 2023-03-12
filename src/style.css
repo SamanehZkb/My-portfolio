@@ -29,7 +29,7 @@ h3 {
   font-size: 30px;
 }
 footer {
-  margin: 50px 80px;
+  margin: 50px 80px 10px 80px;
   padding: 10px 30px;
   border-radius: 10px;
   text-align: left;
@@ -229,6 +229,13 @@ hr {
   background-color: var(--fade-color);
   box-shadow: var(--box-shadow);
 }
+.code {
+  display: block;
+  margin: 3px 0px 30px 80px;
+  text-align: left;
+  font-family: cursive;
+  font-size: 12px;
+}
 @media (max-width: 960px) {
   .topbar {
     margin: 20px 10px;
@@ -256,6 +263,11 @@ hr {
     font-size: 20px;
     opacity: 0.7;
     font-family: "Poppins", sans-serif;
+  }
+  .code {
+    margin: 3px 0px 20px;
+    text-align: center;
+    font-size: 10px;
   }
   h1 {
     font-size: 35px;
